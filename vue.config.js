@@ -96,10 +96,10 @@ module.exports = {
     // 别名 alias
     config.resolve.alias
       .set('@', resolve('src'))
-      .set('@/assets', resolve('src/assets'))
-      .set('@/api', resolve('src/api'))
-      .set('@/views', resolve('src/views'))
-      .set('@/components', resolve('src/components'))
+      .set('assets', resolve('src/assets'))
+      .set('api', resolve('src/api'))
+      .set('views', resolve('src/views'))
+      .set('components', resolve('src/components'))
 
     /**
      * 添加CDN参数到htmlWebpackPlugin配置中

@@ -33,10 +33,4 @@ export default {
 }
 </script>
 <style lang="scss">
-.about-container {
-  /* 你的命名空间 */
-  background: #fff;
-  height: 100vh;
-  box-sizing: border-box;
-}
 </style>

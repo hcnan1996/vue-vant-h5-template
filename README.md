@@ -17,8 +17,6 @@
 
 ```bash
 
-git clone https://github.com/sunniejs/vue-h5-template.git
-
 cd vue-h5-template
 
 npm install
